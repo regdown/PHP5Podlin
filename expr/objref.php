@@ -11,4 +11,5 @@ $second = $first;
 $second->mind = 100;
 // Выводим оба значения.
 echo "First mind: {$first->mind}, second: {$second->mind}";
+print_r($second, true);
 ?>

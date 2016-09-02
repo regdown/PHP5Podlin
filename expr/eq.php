@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/html; charset=windows-1251'); ?>
 <?php ## Операторы равенства и эквивалентности.
 $yeap = array("реальность", true);
 $nein = array("реальность", "иллюзорна");

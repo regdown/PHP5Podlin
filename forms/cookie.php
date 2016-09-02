@@ -8,4 +8,9 @@ $count++;
 setcookie("count", $count, 0x7FFFFFFF, "/");
 // Выводим счетчик.
 echo $count;
+$a=array();
+$a[] = 2;
+$a[35]=3;
+$a[]=4;
+print_r($GLOBALS);
 ?>

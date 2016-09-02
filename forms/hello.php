@@ -8,5 +8,6 @@ if ($_REQUEST['login']=="root" && $_REQUEST['password']=="Z10N0101") {
 } else {
   echo "Доступ закрыт!";
 }
+print_r($argv);
 ?>
 </body></html>
